@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_homepage_product_infos",
+  "info": {
+    "displayName": "ProductInfo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "minLength": 5
+    },
+    "description": {
+      "type": "text"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.img-set",
+      "required": true
+    }
+  }
+}

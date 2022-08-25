@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_images_img_sets",
+  "info": {
+    "displayName": "ImgSet"
+  },
+  "options": {},
+  "attributes": {
+    "s": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "m": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "l": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
