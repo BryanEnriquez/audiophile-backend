@@ -95,11 +95,16 @@
       "required": true
     },
     "cartImg": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "abbrev": {
+      "type": "string",
+      "minLength": 2,
       "required": true
     }
   }
