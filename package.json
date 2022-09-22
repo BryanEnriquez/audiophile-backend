@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
+    "build:dev": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -25,8 +25,8 @@
     "uuid": "4458ddef-74ca-482e-9aab-d6d68984e673"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
+    "node": "16.13.x",
+    "npm": "7.24.x"
   },
   "license": "MIT"
 }
